@@ -1,0 +1,28 @@
+body {
+    
+    background-color: rgb(26, 15, 26);
+    color: whitesmoke;
+    max-width: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+.fullWidth {
+    flex-basis: 100%;
+}
+a {
+    color: orange;
+    text-decoration: none;
+    writing-mode: vertical-lr;
+}
+a:hover {
+    color: yellow;
+}
+.backwards {
+    unicode-bidi: bidi-override;
+    direction: rtl;
+}
+#sineWave {
+    height: 60px;
+}
